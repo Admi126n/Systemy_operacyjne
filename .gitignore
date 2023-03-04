@@ -2,9 +2,14 @@
 
 *.pdf
 *.tar
+*.xz
 
 posprzataj-srodowisko.sh
 przygotuj-srodowisko.sh
 spakuj-rozwiazania.sh
 
 dane
+linux*
+coreutils*
+
+*/dodatkowe
