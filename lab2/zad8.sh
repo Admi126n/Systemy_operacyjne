@@ -23,3 +23,8 @@
 # plików względem katalogu `dane/`. Każdą ścieżkę wyświetlić w osobnej linii.
 #
 
+# FILES="/Users/adam/Documents/SO_laby/lab2/dane/"
+
+# for file in `find $FILES -maxdepth 2 -type f -perm -a+x`; do
+#     echo $file
+# done

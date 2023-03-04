@@ -21,8 +21,8 @@
 # Plik powinien zawierać napis `Ala ma kota.`. Jeśli tak jest, wyświetlić `ok`.
 # Jeśli czegoś brakuje to wyświetlić `nok`.
 #
-if grep "Ala ma kota." /Users/adam/Documents/SO_laby/lab2/dane/trzeci;
-then
+
+if grep "Ala ma kota." /Users/adam/Documents/SO_laby/lab2/dane/trzeci; then
     echo 'ok'
 else
     echo 'nok'

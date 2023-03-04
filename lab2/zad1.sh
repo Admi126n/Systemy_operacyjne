@@ -20,4 +20,5 @@
 # Na dobry początek, proszę wyświetlić napis `Zaczynamy!` (bez apostrofów).
 # Nie wyświetlać nic więcej.
 #
+
 echo Zaczynamy!
