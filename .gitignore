@@ -3,4 +3,8 @@
 *.pdf
 *.tar
 
+posprzataj-srodowisko.sh
+przygotuj-srodowisko.sh
+spakuj-rozwiazania.sh
 
+dane
