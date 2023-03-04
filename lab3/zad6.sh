@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #
-# Systemy operacyjne 2 – laboratorium nr 2
+# Systemy operacyjne 2 – laboratorium nr 3
 #
-# Celem zajęć jest nabranie doświadczenia w podstawowej pracy z powłoką Bash,
-# w szczególności w nawigowaniu po drzewie katalogów i sprawdzaniu uprawnień.
+# Celem zajęć jest pogłębienie wiedzy na temat struktury systemu plików,
+# poruszania się po katalogach i kontroli uprawnień w skryptach powłoki.
 # Proszę unikać wykorzystywania narzędzia `find` w ramach bieżących zajęć.
 #
 # Nie przywiązujemy wagi do środowiska roboczego – zakładamy, że jego pliki,
@@ -16,9 +16,10 @@
 #
 
 #
-# Zadanie 1.
-# Na dobry początek, proszę wyświetlić napis `Zaczynamy!` (bez apostrofów).
-# Nie wyświetlać nic więcej.
+# Zadanie 6.
+# Odnaleźć w katalogu `dane/pierwiastki/` wszystkie dowiązania miękkie, które
+# wskazują na jakiś cel przy pomocy ścieżki bezwzględnej. Wyświetlić ścieżki
+# z takich dowiązań, ale poprawione w taki sposób, aby były one ścieżkami
+# kanonicznymi. Element wskazywany przez dowiązanie nie musi istnieć.
 #
 
-echo Zaczynamy!

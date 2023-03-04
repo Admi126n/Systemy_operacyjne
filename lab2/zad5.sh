@@ -22,3 +22,12 @@
 # plików, porównujemy tylko ich nazwy. Każdą nazwę wyświetlić w osobnej linii.
 #
 
+FILES1="/Users/adam/Documents/SO_laby/lab2/dane/icao/*"
+FILES2="/Users/adam/Documents/SO_laby/lab2/dane/backup/"
+
+for file in $FILES1
+do
+    if [ ! -f $FILES2"$( basename $file)" ]; then
+        basename $file
+    fi
+done

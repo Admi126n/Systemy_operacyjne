@@ -22,3 +22,8 @@
 # Jeśli czegoś brakuje to wyświetlić `nok`.
 #
 
+if grep "Ala ma kota." /Users/adam/Documents/SO_laby/lab2/dane/trzeci; then
+    echo 'ok'
+else
+    echo 'nok'
+fi

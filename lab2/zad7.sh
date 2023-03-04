@@ -24,3 +24,12 @@
 # przeczytać (mamy prawo do odczytu – aby uniknąć błędów).
 #
 
+FILES="/Users/adam/Documents/SO_laby/lab2/dane/kontrola/*"
+TOFIND="/Users/adam/Documents/SO_laby/lab2/dane/poszukiwany"
+
+for file in $FILES
+do
+    if [[ -r $file ]] && cmp -s "$TOFIND" "$file"; then
+        basename $file
+    fi
+done

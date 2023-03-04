@@ -22,3 +22,8 @@
 # wyświetlić napis `nie ma`. Nie wyświetlać nic więcej.
 #
 
+if [ -f '/Users/adam/Documents/SO_laby/lab2/dane/drugi' ]; then
+    echo 'jest'
+else
+    echo 'nie ma'
+fi

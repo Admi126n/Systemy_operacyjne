@@ -22,3 +22,12 @@
 # Kolejność łączenia plików nie ma znaczenia.
 #
 
+FILES="/Users/adam/Documents/SO_laby/lab2/dane/icao/*"
+
+for file in $FILES
+do
+    if [ ! -w $file ]
+        then
+            cat $file
+        fi
+done

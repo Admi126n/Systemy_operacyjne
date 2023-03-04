@@ -21,3 +21,12 @@
 # znajdujących się tam liczb. Na koniec wyświetlić tylko wynik, nic więcej.
 #
 
+FILE="/Users/adam/Documents/SO_laby/lab2/dane/Zahlen.txt"
+SUM=0
+
+while read f;
+do
+    SUM=$((SUM + f))
+done <$FILE
+
+echo $SUM
