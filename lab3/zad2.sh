@@ -22,3 +22,14 @@
 # tylko i wyłącznie samą liczbę.
 #
 
+FILES="dane/pierwiastki/*"
+SUM=0
+
+for file in $FILES
+do
+    if [ -L "$file" ]; then 
+        SUM=$((SUM + 1))
+    fi
+done
+
+echo $SUM

@@ -22,3 +22,8 @@
 # Jeśli któregoś brakuje, nie wyświetlać nic.
 #
 
+FILE="/Users/adam/Documents/SO_laby/lab3/dane/atom"
+
+if [ -L $FILE ] && [ `readlink $FILE` ]; then
+    cat $FILE
+fi
